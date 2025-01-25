@@ -10,6 +10,10 @@ body {
   line-height: 160%;
 }
 
+img {
+  max-width: 100%;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -92,6 +96,8 @@ ul {
   -webkit-backdrop-filter: blur(3.5px);
           backdrop-filter: blur(3.5px);
   padding: 43px;
+  position: relative;
+  z-index: 11;
 }
 .buy-card h4 {
   margin-bottom: 19px;
@@ -241,4 +247,66 @@ ul {
   font-size: 15px;
   font-weight: 700;
   right: 12px;
+}
+
+.section-title {
+  font-size: 66px;
+  font-weight: 500;
+  letter-spacing: -1.98px;
+  margin-bottom: 0;
+}
+
+.what-is-section {
+  padding-bottom: 329px;
+  position: relative;
+}
+.what-is-left {
+  max-width: 649px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.what-is-left p {
+  margin-top: 20px;
+}
+.what-is-shape {
+  position: absolute;
+  left: 5%;
+  bottom: 30%;
+}
+.what-is-right {
+  max-width: 718px;
+  margin-left: auto;
+}
+.what-is-img {
+  width: 100%;
+}
+.what-is-img img {
+  width: 100%;
+}
+
+.how-it-left {
+  max-width: 790px;
+  width: 100%;
+}
+.how-it-content ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 74px;
+}
+.how-it-content ul li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.how-it-content ul li .icon {
+  min-width: 78px;
+  width: 78px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.how-it-content ul li .icon img {
+  width: 100%;
 }
