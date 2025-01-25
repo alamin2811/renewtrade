@@ -10,9 +10,9 @@ const WhatIs = () => {
                         <div className="what-is-shape">
                             <img src="./images/shape/s-line.png" alt="img" />
                         </div>
-                        <h2 className="section-title">
-                            What is Renewtrade
-                        </h2>
+                        <div className="section-title">
+                            <h2>What is Renewtrade</h2>
+                        </div>
                         <p>Renewtrade is a revolutionary platform that merges renewable energy with decentralized finance (DeFi), offering the first-ever cryptocurrency token backed by energy production from solar, wind, and hydroelectric power sources. Investors can now earn from energy projects, while simultaneously promoting global sustainability.</p>
                     
                     </div>
