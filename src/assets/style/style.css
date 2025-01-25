@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  color: #0B1F10;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1575px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 34px 0px;
+}
+.header-inner .logo {
+  color: #083A15;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.08px;
+  text-decoration: none;
+}
+
+.menu-btn {
+  border-radius: 110px;
+  border: 1px solid #083A15;
+  height: 65px;
+  width: 143px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  color: #083A15;
+}
+
+.banner-section {
+  padding-top: 30px;
+  padding-bottom: 111px;
+}
+
+.banner-text {
+  max-width: 669px;
+}
+.banner-text h1 {
+  color: #77E195;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.72px;
+  margin-bottom: 8px;
+}
+.banner-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -1.44px;
+  max-width: 640px;
+}
+.banner-text h2 span {
+  font-size: 43px;
+  font-weight: 300;
+  color: #0B1F10;
+}
+.banner-text p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 640px;
+  margin-bottom: 24px;
+}
+
+.buy-card {
+  border-radius: 10px;
+  border: 1.3px solid rgba(119, 225, 149, 0.09);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 110px 0px #E1FFE9;
+  -webkit-backdrop-filter: blur(3.5px);
+          backdrop-filter: blur(3.5px);
+  padding: 43px;
+}
+.buy-card h4 {
+  margin-bottom: 19px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.buy-card .payment-method {
+  padding-top: 16px;
+  padding-bottom: 35px;
+}
+.buy-card .payment-method ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+}
+.buy-card .payment-method ul li {
+  height: 55px;
+  border-radius: 200px;
+  border: 1px solid #F1F1F1;
+  background: #FFF;
+  padding: 4px;
+  position: relative;
+  max-width: 31;
+  width: 100%;
+}
+.buy-card .input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4%;
+  margin-bottom: 16px;
+}
+.buy-card .input-row .rtx-input {
+  width: 48%;
+}
+.buy-card .input-row .rtx-input label {
+  position: absolute;
+  top: -10px;
+  color: #0B1F10;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  left: 20px;
+  top: -15px;
+}
+.buy-card .input-row .rtx-input .token-img {
+  position: absolute;
+  right: 7px;
+}
+.buy-card button {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.buy-card .connect-btn {
+  border-radius: 90px;
+  border: 1px solid #3DE86E;
+  background: linear-gradient(92deg, #0C3 46.91%, #A4F770 108.59%);
+  height: 55px;
+  margin-bottom: 8px;
+  width: 100%;
+  color: #FFF;
+}
+.buy-card .giveaway-btn {
+  border-radius: 200px;
+  border: 1px solid #CEFEDC;
+  background: linear-gradient(90deg, #E9FFEF -11.96%, #D8FCE2 99.99%);
+  height: 55px;
+  width: 100%;
+  color: #0B1F10;
+}
+
+.progress-bar {
+  border-radius: 90px;
+  background: #EAF5ED;
+  box-shadow: 0px 4px 4px 0px #E1EBE4 inset;
+  height: 23px;
+  position: relative;
+}
+.progress-inner {
+  border-radius: 90px;
+  background: linear-gradient(90deg, #0C3 30.65%, #A4F770 100%);
+  box-shadow: 0px 4px 19px 0px #E8FFEF inset;
+  height: 100%;
+}
+.progress-text {
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  right: 30px;
+}
+
+.token-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+.token-detail h6 {
+  color: #A9A9A9;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 156.25%;
+}
+.token-detail h6 span {
+  color: #0B1F10;
+}
+
+.rtx-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 200px;
+  border: 1px solid #F1F1F1;
+  background: linear-gradient(90deg, #FFF 7.64%, #EAFFF0 111.38%);
+  position: relative;
+}
+.rtx-input.bg-white {
+  background: #FFFFFF;
+}
+.rtx-input input {
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  padding: 5px 21px;
+}
+.rtx-input .next-price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  border-radius: 50px;
+  background: #C0F3BC;
+  font-size: 15px;
+  font-weight: 700;
+  right: 12px;
+}
